@@ -107,7 +107,11 @@ li a:hover:not(.active) {
     transform: translate(-50%, -50%);
 }
 
-.my-page {
+#copyright {
     font-size: 12px;
     text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
 }
