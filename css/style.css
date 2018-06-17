@@ -112,7 +112,7 @@ li a:hover:not(.active) {
 #copyright {
     font-size: 12px;
     text-decoration: none;
-    position: fixed;
+    position: relative;
     bottom: 10px;
     width: 100%;
     text-align: center;

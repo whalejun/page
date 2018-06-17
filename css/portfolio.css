@@ -15,7 +15,7 @@ p {
 }
 .port{
 	margin-left: 205px; /* Same as the width of the sidebar */
-	padding: 0px 10px;
+	padding: 10px 10px;
 	background-color:#EAEAEA;}
 
 .port{
@@ -29,3 +29,55 @@ p {
 		padding: 12px;
 		margin: 0 10px 0 0;
 	}
+.main section {
+	height: 270px;
+
+}
+
+/*#paper{*/
+	/*position:relative;*/
+	/*margin:0 auto;*/
+	/*background:#fff;*/
+	/*border:1px solid #ccc;*/
+	/*width:202px;*/
+	/*height:202px;*/
+/*}*/
+/*#paper_foo1, #paper_foo2{*/
+	/*position:absolute;*/
+	/*background:#fff;*/
+	/*bottom:-5px;*/
+	/*height:4px;*/
+	/*width:190px;*/
+	/*margin-left:3px;*/
+	/*border-bottom:1px solid #ccc;*/
+	/*border-left:1px solid #ccc;*/
+	/*border-right:1px solid #ccc;*/
+/*}*/
+/*#paper_foo2{*/
+	/*width:180px;*/
+/*}*/
+
+
+.paper{
+	position:relative;
+	margin:0 auto;
+	background:#fff;
+	border:2px solid #ccc;
+	width:204px;
+	height:204px;
+	display: inline-block;
+}
+.paper_foo1, .paper_foo2{
+	position:absolute;
+	background:#fff;
+	top:-7px;
+	height:4px;
+	width:190px;
+	margin-left:3px;
+	border-top:2px solid #ccc;
+	border-left:2px solid #ccc;
+	border-right:2px solid #ccc;
+}
+.paper_foo2{
+	width:180px;
+}
