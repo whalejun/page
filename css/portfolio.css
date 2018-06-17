@@ -8,8 +8,14 @@ p {
 	text-align: center;
 	line-height: 20px;
 }
+
+.main {
+	margin-left: 205px; /* Same as the width of the sidebar */
+	padding: 0px 10px;
+}
 .port{
-	margin: 0 0 0 205px;
+	margin-left: 205px; /* Same as the width of the sidebar */
+	padding: 0px 10px;
 	background-color:#EAEAEA;}
 
 .port{
