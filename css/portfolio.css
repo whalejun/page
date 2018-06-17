@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*portfolio*/
+
+.bake{
+	margin: 0 0 0 205px;
+	background-color:#EAEAEA;}
+
+.port{
+		overflow: hidden;
+		margin: 15px 0 15px 0;
+	}
+
+.phot{
+		float: left;
+		width: 250px;
+		padding: 12px;
+		margin: 0 10px 0 0;
+	}
