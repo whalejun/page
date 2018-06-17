@@ -6,8 +6,35 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <script src="script/jquery-3.3.1.min.js"></script>
+    <script src="script/jquery.magnific-popup.min.js"></script>
+    >
 </head>
 
+<script>
+    $(document).ready(function () {
+
+        $('.image-popup-no-margins').magnificPopup({
+            type: 'image',
+            closeOnContentClick: true,
+            closeBtnInside: false,
+            fixedContentPos: true,
+            mainClass: 'mfp-no-margins mfp-with-zoom', // class to remove default margin from left and right side
+            image: {
+                verticalFit: true
+            },
+            zoom: {
+                enabled: true,
+                duration: 300 // don't foget to change the duration also in CSS
+            }
+        });
+
+    });
+
+</script>
+>
 <body>
 
 <!-- TOP -->
@@ -58,53 +85,62 @@
         </ul>
     </div>
 </div>
-	
-	<!-- 内容 -->
-	<div class="main">
-<div class="port">
-	
-	<section class="phot">
-		<img src="image/01.jpg" alt="仮想映画ポスター" title="PRAYER">
-		<p>仮想映画ポスター<br>PRAYER</p>
-	</section>
-	
-	<section class="phot">
-	<img src="image/02.jpg" alt="会社宣伝ポスター" title="Adobe">
-		<p>会社宣伝ポスター<br>Adobe</p>
-	</section>
-	
-	<section class="phot">
-		<img src="image/06.jpg" alt="小説表紙" title="小説「人間失格」">
-		<p>小説表紙<br>「人間失格」</p>
-	</section>
-	
-	<section class="phot">
-	<img src="image/03.jpg" alt="新聞広告" title="SUNTORY ほろよい">
-		<p>新聞広告<br>SUNTORY ほろよい</p>
-	</section>
-	
-	<section class="phot">
-		<img src="image/07.jpg" alt="雑誌広告" title="kindle paperwhite">
-		<p>雑誌広告<br>kindle paperwhite</p>
-	</section>
-	
-	<section class="phot">
-		<img src="image/04.jpg" alt="KUJI" title="私のキャラクター">
-		<p>KUJI<br>私のキャラクター</p>
-	</section>
-	
-	<section class="phot">
-		<img src="image/05.jpg" alt="プルーン Fe" title="雪印メグミルク">
-		<p>プルーン Fe<br>雪印メグミルク</p>
-	</section>
-	
-	<section class="phot">
-		<img src="image/09.jpg" alt="クー" title="フルーティですーっきり！">
-		<p>クー<br>フルーティですーっきり！</p>
-	</section>
+
+<!-- 内容 -->
+<div class="main">
+    <div class="port">
+
+        <section class="phot animated bounceIn">
+            <a class="image-popup-no-margins" href="image/big_01.jpg">
+                <img src="image/01.jpg" alt="仮想映画ポスター" title="PRAYER">
+            </a>
+            <p>仮想映画ポスター<br>PRAYER</p>
+        </section>
+
+        <section class="phot animated bounceIn">
+            <a class="image-popup-no-margins" href="image/big_02.jpg">
+                <img src="image/02.jpg" alt="会社宣伝ポスター" title="Adobe">
+            </a>
+            <p>会社宣伝ポスター<br>Adobe</p>
+        </section>
+
+        <section class="phot animated bounceIn">
+            <a class="image-popup-no-margins" href="image/big_06.jpg">
+                <img src="image/06.jpg" alt="小説表紙" title="小説「人間失格」">
+            </a>
+            <p>小説表紙<br>「人間失格」</p>
+        </section>
+
+        <section class="phot animated bounceIn">
+            <img src="image/03.jpg" alt="新聞広告" title="SUNTORY ほろよい">
+            <p>新聞広告<br>SUNTORY ほろよい</p>
+        </section>
+
+        <section class="phot animated bounceIn">
+            <img src="image/07.jpg" alt="雑誌広告" title="kindle paperwhite">
+            <p>雑誌広告<br>kindle paperwhite</p>
+        </section>
+
+        <section class="phot animated bounceIn">
+            <a class="image-popup-no-margins" href="image/big_04.jpg">
+                <img src="image/04.jpg" alt="KUJI" title="私のキャラクター">
+            </a>
+            <p>KUJI<br>私のキャラクター</p>
+        </section>
+
+        <section class="phot animated bounceIn">
+            <a class="image-popup-no-margins" href="image/big_05.jpg">
+                <img src="image/05.jpg" alt="プルーン Fe" title="雪印メグミルク">
+            </a>
+            <p>プルーン Fe<br>雪印メグミルク</p>
+        </section>
+
+        <section class="phot animated bounceIn">
+            <img src="image/09.jpg" alt="クー" title="フルーティですーっきり！">
+            <p>クー<br>フルーティですーっきり！</p>
+        </section>
+    </div>
 </div>
-</div>
-															 
 <!-- 声明 -->
 <article id="copyright">
     <p class="my-page">&copy;&nbsp;
