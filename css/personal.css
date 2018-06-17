@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.PR{
+	padding: 295px 0 80px 0;
+	margin: auto;
+    width: 50%;
+}
+
+h2{
+	font-size: 20px;
+	line-height: 30px;
+}
+p{
+	font-size: 14px;
+	line-height: 20px;
+	padding: 10px 0 30px 50px;
+}

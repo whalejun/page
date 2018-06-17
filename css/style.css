@@ -102,7 +102,7 @@ li a:hover:not(.active) {
 
 /*底部*/
 .portfolio {
-    padding: 20px;
+    padding: 20px 0;
     position: absolute;
     top: 95%;
     left: 50%;
@@ -110,6 +110,7 @@ li a:hover:not(.active) {
 }
 
 #copyright {
+	background-color:#FFFFFF;
     font-size: 12px;
     text-decoration: none;
     position: fixed;
