@@ -2,35 +2,54 @@
 /* CSS Document */
 
 /*MY*/
-div {display: block;}
-h1,h2,h3,.icon a,p {font-weight:lighter;}
+div {
+    display: block;
+}
+
+h1, h2, h3, .icon a, p {
+    font-weight: lighter;
+}
 
 /*sidebar menu*/
-.sidebar{
-	position: relative;
+.sidebar {
+    position: relative;
     float: left;
     width: 205px;
 }
 
 /*icon*/
 .icon-h {
-	padding: 50px 0 10px 5px;
-	font-size: 14px;
-	line-height: 15px;
+    padding: 50px 0 10px 5px;
+    font-size: 14px;
+    line-height: 15px;
 }
-.top-box{padding: 10px 0 90px 10px;}
+
+.top-box {
+    padding: 10px 0 90px 10px;
+}
 
 /*ナビ*/
-.m-nav .txt {padding:0 10px;}
-.m-nav a,.m-nav .txt,.m-nav .bar,.sch-txt {display:block;}
-
-li a{
-	font-size: 12px;
-	text-decoration: none;
-	color: #999;
+.m-nav .txt {
+    padding: 0 10px;
 }
-li a.active{color:#133d8b;}
-li a:hover:not(.active){color: #133d8b;}
+
+.m-nav a, .m-nav .txt, .m-nav .bar, .sch-txt {
+    display: block;
+}
+
+li a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #999;
+}
+
+li a.active {
+    color: #133d8b;
+}
+
+li a:hover:not(.active) {
+    color: #133d8b;
+}
 
 /*縦*/
 .m-nav li {
@@ -38,75 +57,57 @@ li a:hover:not(.active){color: #133d8b;}
     line-height: 100%;
 }
 
-.m-nav{
+.m-nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-	height: 100%;
+    height: 100%;
 }
-
 
 /*線*/
 .m-nav .bar {
-	width: 106px;
+    width: 106px;
     height: 1px;
     margin: 20px 0;
     background: #999;
-	transform-origin: center center;
-	transform: rotate(160deg);
+    transform-origin: center center;
+    transform: rotate(160deg);
 }
 
 /*内容*/
-.floater{
-	margin: auto;
-	display: table;
+.floater {
+    margin: auto;
+    display: table;
 }
 
-.about-me{
-position  : absolute;
-top       : 45%;
-left      : 50%;
-transform : translate(-50%,-50%);
+.about-me {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.about-me h3{
-	padding: 30px;
-	font-size: 20px;
-	line-height: 30px;
+.about-me h3 {
+    padding: 30px;
+    font-size: 20px;
+    line-height: 30px;
 }
+
 .about-me p {
-	font-size: 14px;
-	line-height: 20px;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 /*底部*/
-.portfolio{
-	padding: 20px;
-	position: absolute;
-	top: 95%;
-	left: 50%;
-	transform : translate(-50%,-50%);
-}
-.my-page{
-	font-size: 12px;
-	text-decoration: none;
+.portfolio {
+    padding: 20px;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-
-/*portfolio*/
-
-.bake{
-	margin: 0 0 0 205px;
-	background-color:#EAEAEA;}
-
-.port{
-		overflow: hidden;
-		margin: 15px 0 15px 0;
-	}
-
-.phot{
-		float: left;
-		width: 250px;
-		padding: 12px;
-		margin: 0 10px 0 0;
-	}
+.my-page {
+    font-size: 12px;
+    text-decoration: none;
+}
