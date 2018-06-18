@@ -34,10 +34,10 @@
             items: [
                 {
                     src: 'image/projects/SUNTORY_01.jpg',
-                    title: '>>你可以修改这里<<'
+                    title: '9段新聞広告「縱307mmX横380mm」'
                 }, {
                     src: 'image/projects/SUNTORY_02.jpg',
-                    // title: '>>或者删除不要<<'
+                    title: '3段新聞広告「縱101mmX横380mm」'
                 },
 
             ],
@@ -62,23 +62,46 @@
             },
             type: 'image' // this is a default type
         });
+		 $('#project-phot').magnificPopup({
+            items: [
+                {
+                    src: 'image/projects/phot_01.jpg',
+                    title: '>>你可以修改这里<<'
+                }, {
+                    src: 'image/projects/phot_02.jpg',
+                    title: '>>你可以修改这里<<'
+                },
+				{
+                    src: 'image/projects/phot_03.jpg',
+                    title: '>>你可以修改这里<<'
+                },
+
+            ],
+            gallery: {
+                enabled: true
+            },
+            type: 'image' // this is a default type
+        });
         $('#project-QOO').magnificPopup({
             items: [
                 {
                     src: 'image/projects/QOO_01.jpg',
-                    title: '>>你可以修改这里<<'
+                    title: '縦ポスター'
                 }, {
                     src: 'image/projects/QOO_02.jpg',
-                    title: '>>你可以修改这里<<'
+                    title: '横ポスター'
                 }, {
                     src: 'image/projects/QOO_03.jpg',
-                    title: '>>你可以修改这里<<'
-                }, {
-                    src: 'image/projects/QOO_04.jpg',
-                    title: '>>你可以修改这里<<'
-                }, {
+                    title: '中づり ワイド'
+                },{
                     src: 'image/projects/QOO_05.jpg',
-                    title: '>>你可以修改这里<<'
+                    title: '中づり シングル'
+                },{
+                    src: 'image/projects/QOO_04.jpg',
+                    title: '戸袋ステッカー'
+                },{
+                    src: 'image/projects/QOO_06.jpg',
+                    title: 'ドア上'
                 },
 
             ],
@@ -146,11 +169,45 @@
 
 <!-- 内容 -->
 <div class="main">
+	<div class="animated fadeIn">
+	<h1>PORTFOLIO</h1>
+		</div>
 
     <div class="port">
         <div id="my-popup" class="mfp-hide white-popup">
             Inline popup
         </div>
+		
+		<section class="phot animated bounceIn" id="project-SUNTORY">
+            <div class="paper">
+                <img src="image/03.jpg" alt="新聞広告" title="SUNTORY ほろよい">
+                <p>新聞広告<br>SUNTORY ほろよい</p>
+                <div class="paper_foo1">
+                    <div class="paper_foo2"></div>
+                </div>
+            </div>
+        </section>
+		
+		<section class="phot animated bounceIn" id="project-QOO">
+            <div class="paper">
+                <img src="image/09.jpg" alt="クー" title="フルーティですーっきり！">
+                <p>クー<br>フルーティですーっきり！</p>
+                <div class="paper_foo1">
+                    <div class="paper_foo2"></div>
+                </div>
+            </div>
+        </section>
+		
+		 <section class="phot animated bounceIn" id="project-kindle">
+            <div class="paper">
+                <img src="image/07.jpg" alt="雑誌広告" title="kindle paperwhite">
+                <p>雑誌広告<br>kindle paperwhite</p>
+                <div class="paper_foo1">
+                    <div class="paper_foo2"></div>
+                </div>
+            </div>
+        </section>
+		
         <section class="phot animated bounceIn">
             <div class="paper">
                 <a class="image-popup-no-margins" href="image/big_01.jpg">
@@ -177,27 +234,17 @@
                 <p>小説表紙<br>「人間失格」</p>
             </div>
         </section>
-
-        <section class="phot animated bounceIn" id="project-SUNTORY">
+		
+		<section class="phot animated bounceIn" id="project-phot">
             <div class="paper">
-                <img src="image/03.jpg" alt="新聞広告" title="SUNTORY ほろよい">
-                <p>新聞広告<br>SUNTORY ほろよい</p>
+                <img src="image/11.jpg" alt="絵" title="デッサン　水彩　 細密着彩　">
+                <p>絵<br>デッサン　水彩　 細密着彩</p>
                 <div class="paper_foo1">
                     <div class="paper_foo2"></div>
                 </div>
             </div>
         </section>
 
-
-        <section class="phot animated bounceIn" id="project-kindle">
-            <div class="paper">
-                <img src="image/07.jpg" alt="雑誌広告" title="kindle paperwhite">
-                <p>雑誌広告<br>kindle paperwhite</p>
-                <div class="paper_foo1">
-                    <div class="paper_foo2"></div>
-                </div>
-            </div>
-        </section>
 
         <section class="phot animated bounceIn">
             <div class="paper">
@@ -217,15 +264,7 @@
             </div>
         </section>
 
-        <section class="phot animated bounceIn" id="project-QOO">
-            <div class="paper">
-                <img src="image/09.jpg" alt="クー" title="フルーティですーっきり！">
-                <p>クー<br>フルーティですーっきり！</p>
-                <div class="paper_foo1">
-                    <div class="paper_foo2"></div>
-                </div>
-            </div>
-        </section>
+        
     </div>
 </div>
 <!-- 声明 -->
