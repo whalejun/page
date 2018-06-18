@@ -6,6 +6,7 @@ div {
     display: block;
 }
 
+.about-me h1{text-align:center;}
 h1, h2, h3, h4, .icon a, p {
     font-weight: lighter;
 }
