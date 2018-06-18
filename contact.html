@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/contact.css">
 	<style type="text/css">
 		h1{
 	padding: 50px 0;
@@ -33,7 +34,7 @@
     <div class="my-hdimg">
         <ul class="m-nav">
             <li>
-                <a href="MY.html" id="about-me" class="active">
+                <a href="MY.html" id="about-me">
                     <span class="txt">私について</span>
                     <span class="bar"></span>
                 </a></li>
@@ -57,7 +58,7 @@
                 </a></li>
 
             <li>
-                <a href="contact.html" rel="contact">
+                <a href="#" rel="contact" class="active">
                     <span class="txt">連絡</span>
                     <span class="bar"></span>
                 </a></li>
@@ -66,21 +67,30 @@
 </div>
 
 <!-- 内容 -->
-
-<div class="main">
-    <div class="floater">
-        <div class="about-me animated fadeIn" align="center">
-			<h1>ABOUT ME</h1>
-            <a href="MY.html"><img src="image/kuji.jpg"></a>
-            <h3>
-                陶　静雨　　TAO　JINGYU<br>生年月日：1994年8月11日<br>血液型：B型 </h3>
-            <p>
-                陶静雨です、名前は靜かな雨とよう意味です。<br>現在、東京デザイン専門学校 グラフィック科WEBを中心に勉強していて、来春卒業見込です。<br>大学時代は日本語とデザインを勉強し、なお人々及び自分をより理解する為に心理学を独学しました<br>このスキルは未來の仕事の中でもきっと役に立つと思います。<br>　私は人々を満足させられる作品を作れるデザイナーになりたいです。
-            </p>
-        </div>
-    </div>
+	
+	<div class="animated fadeIn">
+<div class="contact">
+	<div class="zhongjian">
+			<h1>CONTACT</h1>
 		</div>
+	<form action="/demo/demo_form.asp">
+		<h4>お名前</h4>
+		<br><input type="text" name="name" size="50">
+		<br>
+		<h4>メールアドレス</h4><br><input type="text" name="email" size="50">
+		<br>
+		<h4>電話番号</h4><br><input type="text" name="pon" size="50">
+		<br>
+		<h4>内容</h4><br><input type="text" name="com" size="50" value="サーバーはないので、現在使えません。">
+		<br>
+		<div class="sounxin">
+		<input type="submit" value="送信">
+			</div>
+	</form> 
+	</div>
+	</div>
 
+	
 <!-- 声明 -->
 <article id="copyright">
 	<div class="my-page">

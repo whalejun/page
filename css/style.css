@@ -6,7 +6,7 @@ div {
     display: block;
 }
 
-h1, h2, h3, .icon a, p {
+h1, h2, h3, h4, .icon a, p {
     font-weight: lighter;
 }
 

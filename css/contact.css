@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.zhongjian{
+	font-size: 50px;
+	text-align:center;
+}
+
+.contact{
+	position: absolute;
+	top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.sounxin{
+	text-align: center;
+	font-size: 14px;
+	padding: 30px 0 140px 0;
+}
+
+h4{
+	padding: 30px 0 20px 0;
+	font-size: 14px;
+	text-align:center;
+}
