@@ -110,6 +110,64 @@
             },
             type: 'image' // this is a default type
         });
+		
+		 $('#project-book').magnificPopup({
+            items: [
+                {
+                    src: 'image/projects/book_01.jpg',
+                    title: '表紙'
+                }, {
+                    src: 'image/projects/book_02.jpg',
+                    title: '01-02'
+                }, {
+                    src: 'image/projects/book_03.jpg',
+                    title: '03-04'
+                },{
+                    src: 'image/projects/book_04.jpg',
+                    title: '05-06'
+                },
+            ],
+            gallery: {
+                enabled: true
+            },
+            type: 'image' // this is a default type
+        });
+		
+		$('#project-app').magnificPopup({
+            items: [
+                {
+                    src: 'image/projects/app_00.jpg',
+                    title: 'ログイン'
+                }, {
+                    src: 'image/projects/app_010.jpg',
+                    title: 'ユーザー'
+                },{
+                    src: 'image/projects/app_01.jpg',
+                    title: 'ホーム'
+                },{
+                    src: 'image/projects/app_02.jpg',
+                    title: 'おすすめ'
+                }, {
+                    src: 'image/projects/app_03.jpg',
+                    title: 'ミュージック'
+                },{
+                    src: 'image/projects/app_04.jpg',
+                    title: '検索'
+                },
+				{
+                    src: 'image/projects/app_05.jpg',
+                    title: '設定'
+                },
+				{
+                    src: 'image/projects/app_06.jpg',
+                    title: '再生中'
+                },
+            ],
+            gallery: {
+                enabled: true
+            },
+            type: 'image' // this is a default type
+        });
     });
 
 
@@ -235,6 +293,16 @@
             </div>
         </section>
 		
+		<section class="phot animated bounceIn" id="project-book">
+            <div class="paper">
+                <img src="image/10.jpg" alt="TDA" title="パンフレット">
+                <p>東京デザイン専門學校<br>パンフレット</p>
+                <div class="paper_foo1">
+                    <div class="paper_foo2"></div>
+                </div>
+            </div>
+        </section>
+		
 		<section class="phot animated bounceIn" id="project-phot">
             <div class="paper">
                 <img src="image/11.jpg" alt="絵" title="デッサン　水彩　細密着彩　">
@@ -264,6 +332,15 @@
             </div>
         </section>
 
+				<section class="phot animated bounceIn" id="project-app">
+            <div class="paper">
+                <img src="image/12.jpg" alt="ひびき" title="アプリ">
+                <p>ひびき<br>アプリ</p>
+                <div class="paper_foo1">
+                    <div class="paper_foo2"></div>
+                </div>
+            </div>
+        </section>
         
     </div>
 </div>
