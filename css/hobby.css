@@ -2,9 +2,11 @@
 /* CSS Document */
 
 
+.ho{
+	margin:152px 0 97px 150px;
+}
 .work{
-	margin-left: 205px;
-	padding: 140px 0;
+	margin-left: 150px;
 }
 h1{
 	font-size: 50px;

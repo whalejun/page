@@ -3,25 +3,20 @@
 
 /*portfolio*/
 
-h1{
-	padding: 170px 5px 60px 0;
-	font-size: 50px;
-}
-
 p {
 	padding: 5px;
 	text-align: center;
 	line-height: 20px;
 }
-
+.po{
+	margin: 152px 0 0 150px;
+}
 .main {
-	margin-left: 205px; /* Same as the width of the sidebar */
-	padding: 0px 10px;
+	margin-left: 150px; /* Same as the width of the sidebar */
 }
 .port{
-	margin-left: 205px; /* Same as the width of the sidebar */
-	padding: 10px 10px;
-	background-color:#EAEAEA;}
+	width: 1100px;
+	padding: 75px 30px;}
 
 .port{
 		overflow: hidden;
