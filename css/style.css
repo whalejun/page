@@ -84,10 +84,14 @@ li a:hover:not(.active) {
 /*底部*/
 
 #copyright {
+	margin: auto 10%;
+	background: #ffffff;
+	display: block;
+	width: 80%;
+	text-align: center;
 	padding: 10px 0;
-	bottom: 10px;
+	bottom: 0;
 	position: fixed;
-	right: 40%;
 }
 /*内容*/
 
