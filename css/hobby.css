@@ -1,15 +1,23 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.kuang{
+	margin: 90px 0;
+}
 
 .ho{
 	margin:152px 0 97px 150px;
 }
 .work{
-	margin-left: 150px;
+	margin-left: 190px;
 }
 h1{
 	font-size: 50px;
+}
+
+h4{
+	font-size: 20px;
+	margin: 10px 20px;
 }
 .like img{ 
 	padding: 10px 10px;
