@@ -2,12 +2,37 @@
 /* CSS Document */
 
 /*MY*/
+	* {
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      height: 100%;
+      width: 100%;
+    }
+
+    #github-iframe {
+      position: fixed;
+      left: 32px;
+      top: 32px;
+    }
+
+    #area-render {
+      position: fixed;
+      width: 320px;
+      height: 160px;
+      right: 4px;
+      bottom: 4px;
+      border: dashed 1px #ccc;
+    }
+
 div {
     display: block;
 }
 
 .me{
-	margin:152px 150px;
+	padding:152px 150px;
 }
 
 .about-me h1{text-align:center;}
