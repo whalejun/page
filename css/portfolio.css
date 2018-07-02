@@ -2,11 +2,16 @@
 /* CSS Document */
 
 /*portfolio*/
+.port{
+	padding: 75px 30px;
+	overflow: hidden;
+	margin: 15px 0 15px 0;
+	}
 
 .main p {
-	padding: 5px;
+	margin:10px;
 	text-align: center;
-	line-height: 20px;
+	color: #133d8b;
 }
 .po{
 	margin: 152px 0 0 150px;
@@ -14,24 +19,12 @@
 .main {
 	margin-left: 150px; /* Same as the width of the sidebar */
 }
-.port{
-	padding: 75px 30px;}
 
-.port{
-		overflow: hidden;
-		margin: 15px 0 15px 0;
-	}
 
 .phot{
 		float: left;
-		width: 250px;
-		padding: 12px;
-		margin:5px;
+		margin:8px;
 	}
-.main section {
-	height: 270px;
-
-}
 
 /*#paper{*/
 	/*position:relative;*/
@@ -61,22 +54,22 @@
 	position:relative;
 	margin:0 auto;
 	background:#fff;
-	border:2px solid #ccc;
-	width:204px;
-	height:204px;
+	border:1px solid #ccc;
+	width:352px;
+	height:352px;
 	display: inline-block;
 }
 .paper_foo1, .paper_foo2{
 	position:absolute;
 	background:#fff;
-	top:-7px;
-	height:4px;
-	width:190px;
-	margin-left:3px;
-	border-top:2px solid #ccc;
-	border-left:2px solid #ccc;
-	border-right:2px solid #ccc;
+	top:-5px;
+	height:3px;
+	width:340px;
+	margin-left:2px;
+	border-top:1px solid #133d8b;
+	border-left:1px solid #133d8b;
+	border-right:1px solid #133d8b;
 }
 .paper_foo2{
-	width:180px;
+	width:330px;
 }

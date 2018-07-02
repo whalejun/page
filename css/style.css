@@ -42,7 +42,8 @@ h1, h2, h3, h4, .icon a, p {
 
 /*sidebar menu*/
 .sidebar {
-    width: 120px;
+	background-color: #ECECEC;
+    width: 140px;
     height: 100%;
     position: fixed;
     left: 0;
@@ -51,13 +52,13 @@ h1, h2, h3, h4, .icon a, p {
 
 /*icon*/
 .icon-h {
-    padding: 50px 0 10px 5px;
+    padding: 20px 0 10px 5px;
     font-size: 14px;
     line-height: 15px;
 }
 
 .top-box {
-    padding: 10px 0 90px 10px;
+    padding: 30px 0 70px 10px;
 }
 
 /*ナビ*/
@@ -85,7 +86,7 @@ li a:hover:not(.active) {
 
 /*縦*/
 .m-nav li {
-    padding: 0 0 25px 0;
+    padding: 0 0 25px 5px;
     line-height: 100%;
 }
 
@@ -98,7 +99,7 @@ li a:hover:not(.active) {
 
 /*線*/
 .bar {
-    width: 106px;
+    width: 125px;
     height: 1px;
     margin: 20px 0;
     background: #999;
@@ -109,10 +110,9 @@ li a:hover:not(.active) {
 /*底部*/
 
 #copyright {
-	margin: auto 10%;
-	background: #ffffff;
+	margin: auto;
 	display: block;
-	width: 80%;
+	width: 100%;
 	text-align: center;
 	padding: 10px 0;
 	bottom: 0;
