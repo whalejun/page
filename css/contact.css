@@ -3,12 +3,12 @@
 
 
 .co{
-	padding:152px 0 85px 150px;
+	margin:152px 0 85px 150px;
 }
 
 .zhong{
 	position: absolute;
-	top: 72%;
+	top: 50%;
 	left: 50%;
     transform: translate(-50%, -50%);
 }

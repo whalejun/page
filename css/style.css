@@ -32,7 +32,7 @@ div {
 }
 
 .me{
-	padding:152px 150px;
+	margin: 152px 0 0 150px;
 }
 
 .about-me h1{text-align:center;}
@@ -120,20 +120,19 @@ li a:hover:not(.active) {
 }
 /*内容*/
 
-.about-me {
-    position: absolute;
-	top: 50%;
-	left: 50%;
-    transform: translate(-50%, -50%);
+.about-m {
+    padding: 50px 0 100px 0;
+	margin: auto;
+    width: 50%;
 }
 
-.about-me h3 {
+.about-m h3 {
     padding: 30px;
     font-size: 20px;
     line-height: 30px;
 }
 
-.about-me p {
+.about-m p {
     font-size: 14px;
     line-height: 20px;
 }
