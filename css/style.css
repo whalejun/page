@@ -1,13 +1,13 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/*MY*/
+/*js*/
 	* {
       margin: 0;
       padding: 0;
     }
 
-html, body {
+html,body {
       height:100%;
       width: 100%;
     }
@@ -30,12 +30,12 @@ html, body {
 div {
     display: block;
 }
-
 .me{
 	padding: 152px 0 0 150px;
 }
 
 .about-me h1{text-align:center;}
+
 h1, h2, h3, h4, .icon a, p {
     font-weight: lighter;
 }
@@ -91,13 +91,6 @@ li a:hover:not(.active) {
     line-height: 100%;
 }
 
-.m-nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
-
 /*線*/
 .bar {
     width: 125px;
@@ -119,6 +112,7 @@ li a:hover:not(.active) {
 	bottom: 0;
 	position: fixed;
 }
+
 /*内容*/
 
 .about-m {
