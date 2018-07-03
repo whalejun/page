@@ -32,7 +32,7 @@ div {
 }
 
 .me{
-	margin: 152px 0 0 150px;
+	padding: 152px 0 0 150px;
 }
 
 .about-me h1{text-align:center;}
@@ -42,7 +42,7 @@ h1, h2, h3, h4, .icon a, p {
 
 /*sidebar menu*/
 .sidebar {
-	background-color: #ECECEC;
+	background-color:rgba(200,200,200,0.3);
     width: 140px;
     height: 100%;
     position: fixed;
