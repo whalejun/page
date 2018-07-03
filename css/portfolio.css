@@ -1,15 +1,13 @@
 @charset "UTF-8";
 /* CSS Document */
 
-
 /*portfolio*/
 .port{
 	padding: 75px 30px;
 	overflow: hidden;
 	padding: 15px 0 15px 0;
 	}
-
-.main p {
+.main p{
 	margin:10px;
 	text-align: center;
 	color: #133d8b;
@@ -26,6 +24,7 @@
 		float: left;
 		margin:8px;
 	}
+
 
 /*#paper{*/
 	/*position:relative;*/
@@ -50,7 +49,6 @@
 	/*width:180px;*/
 /*}*/
 
-
 .paper{
 	position:relative;
 	margin:0 auto;
@@ -73,4 +71,26 @@
 }
 .paper_foo2{
 	width:330px;
+}
+
+
+/*变白放大渐变*/
+.mask{
+  width: 350px;
+  height: 350px;
+  border: #000 solid 0px;
+  overflow: hidden;
+}
+
+.mask:hover{
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;	
+}
+		
+.mask img{
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.mask img:hover{
+  transform: scale(1.05);
 }
