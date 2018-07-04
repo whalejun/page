@@ -7,6 +7,7 @@
 	overflow: hidden;
 	padding: 15px 0 15px 0;
 	}
+
 .main p{
 	margin:10px;
 	text-align: center;
@@ -16,37 +17,18 @@
 	margin: 152px 0 0 150px;
 }
 .main {
-	margin-left: 150px; /* Same as the width of the sidebar */
+	margin-left: 150px;
+	margin-bottom: 50px;
+	/* Same as the width of the sidebar */
 }
 .phot{
-		float: left;
-		margin:8px;
+	float: left;
+	margin:8px;
 	}
 
 
-/*#paper{*/
-	/*position:relative;*/
-	/*margin:0 auto;*/
-	/*background:#fff;*/
-	/*border:1px solid #ccc;*/
-	/*width:202px;*/
-	/*height:202px;*/
-/*}*/
-/*#paper_foo1, #paper_foo2{*/
-	/*position:absolute;*/
-	/*background:#fff;*/
-	/*bottom:-5px;*/
-	/*height:4px;*/
-	/*width:190px;*/
-	/*margin-left:3px;*/
-	/*border-bottom:1px solid #ccc;*/
-	/*border-left:1px solid #ccc;*/
-	/*border-right:1px solid #ccc;*/
-/*}*/
-/*#paper_foo2{*/
-	/*width:180px;*/
-/*}*/
 
+/*上方蓝框*/
 .paper{
 	position:relative;
 	margin:0 auto;
@@ -60,7 +42,7 @@
 	position:absolute;
 	background:#fff;
 	top:-5px;
-	height:3px;
+	height:4px;
 	width:340px;
 	margin-left:2px;
 	border-top:1px solid #133d8b;
