@@ -1,9 +1,34 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/*beijing*/
+ * {
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      height: 100%;
+      width: 100%;
+    }
+
+    #github-iframe {
+      position: fixed;
+      left: 32px;
+      top: 32px;
+    }
+
+    #area-render {
+      position: fixed;
+      width: 320px;
+      height: 160px;
+      right: 4px;
+      bottom: 4px;
+      border: dashed 1px #ccc;
+    }
 
 .me{
-	padding: 152px 0 0 150px;
+	padding: 152px 0 0 230px;
 }
 
 .about-me h1{text-align:center;}
@@ -14,8 +39,8 @@ h1, h2, h3, h4, .icon a, p {
 
 /*sidebar menu*/
 .sidebar {
-	background-color:rgba(200,200,200,0.3);
-    width: 140px;
+	background-color:rgba(240,240,240,1);
+    width: 220px;
     height: 100%;
     position: fixed;
     left: 0;
@@ -30,12 +55,12 @@ h1, h2, h3, h4, .icon a, p {
 }
 
 .top-box {
-    padding: 30px 0 70px 10px;
+    padding: 30px 0 200px 20px;
 }
 
 /*ナビ*/
 .m-nav .txt {
-    padding: 0 10px;
+    padding: 5px 15px;
 }
 
 .m-nav a, .m-nav .txt, .m-nav .bar, .sch-txt {
@@ -59,7 +84,7 @@ li a:hover:not(.active) {
 
 /*縦*/
 .m-nav li {
-    padding: 0 0 25px 5px;
+    padding: 0 0 10px 5px;
     line-height: 100%;
 }
 
@@ -67,7 +92,7 @@ li a:hover:not(.active) {
 .bar {
     width: 125px;
     height: 1px;
-    margin: 20px 0;
+    margin: 15px 0;
     background: #999;
     transform-origin: center center;
     transform: rotate(160deg);
