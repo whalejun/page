@@ -108,6 +108,8 @@ li a:hover:not(.active) {
 
 /*底部*/
 #footer {
+    padding: 10px 0;
+}
 
 #copyright {
     margin: auto;
