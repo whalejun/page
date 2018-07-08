@@ -6,16 +6,38 @@
     <title>TJY Home Page</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/animate.min.css">
 	<link rel="stylesheet" href="css/hobby.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+    <script src="script/jquery-3.3.1.min.js"></script>
+    <script src="script/jquery.magnific-popup.min.js"></script>
 	
 	<style type="text/css">
 		h1{padding: 50px 0;font-size: 50px;}
 </style>
 </head>
+	
+	<script>
+    $(document).ready(function () {
+
+        $('.image-popup-no-margins').magnificPopup({
+            type: 'image',
+            closeOnContentClick: true,
+            closeBtnInside: false,
+            fixedContentPos: true,
+            mainClass: 'mfp-no-margins mfp-with-zoom',
+            image: {
+                verticalFit: true
+            },
+            zoom: {
+                enabled: true,
+                duration: 300
+            }
+        });
+		});
+</script>
 
 <body>
-
 <!-- TOP -->
 <div class="sidebar">
     <div class="top-box">
@@ -43,16 +65,16 @@
                     <span class="txt">作品</span>
                     <span class="bar"></span>
                 </a></li>
-
-            <li>
-                <a href="personal_info.html" rel="personal-information">
-                    <span class="txt">個人資料</span>
+			
+			<li>
+                <a href="hobby.html" rel="hobbies" class="active">
+                    <span class="txt">興味</span>
                     <span class="bar"></span>
                 </a></li>
 
             <li>
-                <a href="hobby.html" rel="hobbies" class="active">
-                    <span class="txt">興味</span>
+                <a href="personal_info.html" rel="personal-information">
+                    <span class="txt">個人資料</span>
                     <span class="bar"></span>
                 </a></li>
 
@@ -66,34 +88,42 @@
 </div>
 
 <!-- 内容 -->
+	
 		<div class="ho animated slideInDown">
 	<img src="image/HOBBY.jpg">
 			</div>
 		
 		<div class="kuang">
 <div class="work animated jackInTheBox">
-	<div class="like">
-	<img src="image/working.jpg">
+	<a class="image-popup-no-margins" href="image/hobby_big01.jpg">
+		<div class="mask">
+	<img src="image/hobby_01.jpg">
+			</div>
+			</a>
 		<h4>日本漫画黄金期作品を読む</h4>
-		<hr>
-		</div>
+		<hr width="70%" color="#133d8b">
 		</div>
 	
 <div class="work animated jackInTheBox">
-	<div class="like">
-	<img src="image/working.jpg">
+	<a class="image-popup-no-margins" href="image/hobby_big02.jpg">
+		<div class="mask">
+	<img src="image/hobby_02.jpg">
+			</div>
+		</a>
 		<h4>絵を描く</h4>
-		<hr>
+		<hr width="70%" color="#133d8b">
 		</div>
-		</div>
+
 	
 <div class="work animated jackInTheBox">
-	<div class="like">
-	<img src="image/working.jpg">
-		<h4>音楽ゲーム</h4>
-		<hr>
-		</div>
-		</div>
+	<a class="image-popup-no-margins" href="image/hobby_big03.jpg">
+		<div class="mask">
+	<img src="image/hobby_03.jpg">
+			</div>
+		</a>
+		<h4>特撮</h4>
+		<hr width="70%" color="#133d8b">
+			</div>
 	</div>
 <!-- 声明 -->
 <article id="copyright">

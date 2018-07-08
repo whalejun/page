@@ -28,7 +28,8 @@
     }
 
 .me{
-	padding: 152px 0 0 230px;
+	margin: 0 0 0 230px;
+	padding: 152px 0 0 0;
 }
 
 .about-me h1{text-align:center;}
@@ -39,7 +40,7 @@ h1, h2, h3, h4, .icon a, p {
 
 /*sidebar menu*/
 .sidebar {
-	background-color:rgba(240,240,240,1);
+	background-color:rgba(240,240,240);
     width: 220px;
     height: 100%;
     position: fixed;
@@ -54,13 +55,20 @@ h1, h2, h3, h4, .icon a, p {
     line-height: 15px;
 }
 
-.top-box {
-    padding: 30px 0 200px 20px;
+.top-box { 
+    padding: 30px 0 0 20px;
 }
 
 /*ナビ*/
+.m-nav{
+	width: 335px;
+	float:left;
+	position:fixed;
+	bottom:10px;
+}
+
 .m-nav .txt {
-    padding: 5px 15px;
+    padding: 5px 20px;
 }
 
 .m-nav a, .m-nav .txt, .m-nav .bar, .sch-txt {
@@ -68,7 +76,7 @@ h1, h2, h3, h4, .icon a, p {
 }
 
 li a {
-    font-size: 12px;
+    font-size: 13px;
     text-decoration: none;
     color: #999;
 	transition: 1s;
@@ -92,10 +100,10 @@ li a:hover:not(.active) {
 .bar {
     width: 125px;
     height: 1px;
-    margin: 15px 0;
+    margin: 15px 15px;
     background: #999;
     transform-origin: center center;
-    transform: rotate(160deg);
+    transform: rotate(165deg);
 }
 
 /*底部*/

@@ -3,11 +3,12 @@
 
 
 .kuang{
-	margin: 50px 0;
+	margin: 50px 0 90px 0;
 }
 
 .ho{
-	padding:152px 0 0 230px;
+	margin: 0 0 0 230px;
+	padding:152px 0 0 0;
 }
 .work{
 	margin-left: 250px;
@@ -20,7 +21,24 @@ h4{
 	font-size: 20px;
 	margin: 15px 0 15px 20px;
 }
-.like img{ 
-	padding: 10px 10px;
-	background-color:#EAEAEA;
+
+/*变白放大渐变*/
+.mask{
+  width: 800px;
+  height: 437px;
+  border: #000 solid 0px;
+  overflow: hidden;
+}
+
+.mask:hover{
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;	
+}
+		
+.mask img{
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.mask img:hover{
+  transform: scale(1.05);
 }
