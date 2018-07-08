@@ -107,17 +107,17 @@ li a:hover:not(.active) {
 }
 
 /*底部*/
+#footer {
 
 #copyright {
-	margin: auto;
-	display: block;
-	width: 100%;
-	text-align: center;
-	padding: 10px 0;
-	bottom: 0;
-	position: fixed;
+    margin: auto;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    position: fixed;
 }
-
 /*内容*/
 
 .about-m {
